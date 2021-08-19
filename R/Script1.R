@@ -1,0 +1,5 @@
+usethis::use_git()
+usethis::use_github()
+file.create(".nojekyll")
+distill::create_blog(".", "Blog do Andre")
+file.create(".nojekyll")
